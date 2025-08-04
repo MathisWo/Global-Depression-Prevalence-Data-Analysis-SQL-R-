@@ -7,7 +7,6 @@ This project explores global depression prevalence data using **SQL queries for 
 - Write SQL queries for exploratory analysis (Filtering, Joins, Aggregate Functions, Window Functions, CTEs)
 - Further data exploration with R
 - Create clean visualizations and summaries with R
-- Showcase SQL-to-R workflows in a public health data context
 
 ## 🗃️ Data Source
 
@@ -35,7 +34,7 @@ The project covers:
 
 ## 📁 File Structure
 
-´´´
+```
 📂 sql/
 └── queries.sql
 📂 r/
@@ -44,7 +43,7 @@ The project covers:
 📄 analysis_report.Rmd
 📄 README.md
 
-´´´
+```
   
 
 ## ✍️ Author
