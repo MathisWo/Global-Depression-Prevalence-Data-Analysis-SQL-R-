@@ -6,13 +6,27 @@ This project explores global depression prevalence data using **SQL queries for 
 
 - Write SQL queries for exploratory analysis (Filtering, Joins, Aggregate Functions, Window Functions, CTEs)
 - Further data exploration with R
-- Create clean visualizations and summaries with R
+- Create clean visualizations with R
 
 ## 🗃️ Data Source
 
 This project uses a PostgreSQL database structure of a [prior project](https://github.com/MathisWo/Data-Modeling-of-Global-Depression-Prevalence-Data), which was based on depression prevalence estimates from an **IHME** / **Global Burden of Disease (GBD)**  dataset.
 
-📎 **Note**: Due to licensing restrictions, data files are not included here. However, you can reconstruct the database using the instructions in the [data modeling project](https://github.com/MathisWo/Data-Modeling-of-Global-Depression-Prevalence-Data).
+📎 **Note**: Due to licensing restrictions, data files are not included here. However you can look up the database structure and how to download the data in my [data modeling project](https://github.com/MathisWo/Data-Modeling-of-Global-Depression-Prevalence-Data).
+
+## 📁 File Structure
+
+```
+📂 r/
+├── 📂 visuals/
+└── depression_prevalence_analysis.R
+📂 sql_queries/
+└── depression_prevalence_analysis.sql
+📄 README.md
+📄 analysis_report.Rmd
+📄 analysis_report.html
+
+```
 
 ## 🛠️ Tools & Technologies
 
@@ -29,22 +43,7 @@ The project covers:
 - Summary statistics by country and year
 - Country comparisons
 - Visualizing prevalence trends using `ggplot2`
-- Optional: regional prevalence heatmaps or time series plots
 
-
-## 📁 File Structure
-
-```
-📂 sql_queries/
-└── depression_prevalence_analysis.sql
-📂 r/
-├── depression_prevalence_analysis.R
-└── 📂 visuals/
-📄 analysis_report.Rmd
-📄 README.md
-
-```
-  
 
 ## ✍️ Author
 
