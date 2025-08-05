@@ -1,0 +1,90 @@
+---
+title: "Depression Prevalence Analysis Report"
+author: "MathisWo"
+date: "2025-08-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+# 1. Project Overview
+
+This project explores data on depression prevalence estimates from an IHME / Global Burden of Disease (GBD) dataset. For more information about the data and how to download it read the file "where_to_find_the_data.md" of my [Data Modeling Project](https://github.com/MathisWo/Data-Modeling-of-Global-Depression-Prevalence-Data).
+
+The dataset contains the prevalence estimates of 204 countries/territories for every year from 1990 to 2021.
+The following sections show summary statistics and visualizations of the main insights. Please note that the country names are in german.
+
+Load and clean the original depression prevalence dataset.
+
+# 2. Main Insights
+
+## 2.1 Prevalence over Time
+
+### Global Average Prevalence Estimates over Time (1990-2021)
+
+The global average prevalence of depression increases by a very small amount almost every year. The prevalence increases from 3.94% in 2019 to 4.37% in 2020. This bigger jump might be due to Covid19.
+
+![](prevalence_over_time.png)
+
+
+### Prevalence Estimates over Time in Germany (1990-2021)
+
+The prevalence of depression in Germany follows a similar trend over time as the global average. 
+In every year since 1990 the prevalence in Germany has been higher than the average trend line displayed in red.
+
+2021: 5.04%
+
+![](prevalence_germany_vs_avg.png)
+
+
+## 2.2 The Top 10 Countries with the Highest Prevalence of Depression
+
+### Overall
+
+This graph shows the top 10 countries with the highest average prevalence estimates from 1990-2021. 
+Apart from Palastine (#4) and Tunisia (#8), eight out of the ten countries shown are european.
+
+![](top10_countries.png)
+
+### In 2021
+
+This graph shows the top 10 countries with the highest prevalence estimates in 2021.
+The values are consistently higher than the values averaged over the years. This reflects the increase over time shown in the first graph.
+In 2021 only 6 out of the ten countries are european. The other four are Tunisia (#3), Palastine (#5), Lebanon (#7) and Lesotho (#8).
+
+![](top10_countries_2021.png)
+
+## 2.3 Prevalence Ranks
+
+### Countries with the Highest and Lowest Prevalence for Every Year
+
+The country with the highest prevalence estimate for depression alternates between Greenland and Greece from 1990 to 2021.
+
+1990-1998: Greenland
+
+1999-2003: Greece
+
+2004-2021: Greenland
+
+The country with the lowest prevalence of depression is Brunei for every year from 1990-2021. On average Brunei has a prevalence of 1.8%.
+
+
+### Germany's Rank
+
+On average (1990-2021) Germany shows the 54th highest prevalence of depression.
+
+In 2021 Germany lands on Rank 61.
+
+
+## 3. Summary
+
+- The prevalence of depression increased slightly from 1990 to 2021
+- Germany has a higher prevalence than the global average in every year with a prevalence of 5.04% in 2021 (Rank 54 overall, Rank 61 in 2021)
+- Most of the top 10 countries with the highest average prevalence estimates are european
+- Greenland and Greece show the highest prevalence estimates over the years
+- Brunei shows the lowest prevalence estimates in every year with an average of 1.8%
+
