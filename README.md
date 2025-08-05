@@ -35,11 +35,11 @@ The project covers:
 ## 📁 File Structure
 
 ```
-📂 sql/
-└── queries.sql
+📂 sql_queries/
+└── depression_prevalence_analysis.sql
 📂 r/
-├── analysis.R
-└── visuals/
+├── depression_prevalence_analysis.R
+└── 📂 visuals/
 📄 analysis_report.Rmd
 📄 README.md
 
