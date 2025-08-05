@@ -17,6 +17,8 @@ This project uses a PostgreSQL database structure of a [prior project](https://g
 ## 📁 File Structure
 
 ```
+📂 docs/ 
+└── 📄 analysis_report.html # rendered report on github pages
 📂 r/
 ├── 📂 visuals/
 └── depression_prevalence_analysis.R
@@ -24,7 +26,6 @@ This project uses a PostgreSQL database structure of a [prior project](https://g
 └── depression_prevalence_analysis.sql
 📄 README.md
 📄 analysis_report.Rmd
-📄 analysis_report.html
 
 ```
 
