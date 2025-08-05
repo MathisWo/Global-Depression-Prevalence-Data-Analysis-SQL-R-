@@ -2,6 +2,8 @@
 
 This project explores global depression prevalence data using **SQL queries for exploratory analysis** and **R for analysis and visualization**. It builds on a previously developed PostgreSQL database that modeled GBD data related to depression.
 
+Here is a link to the [rendered html report](https://mathiswo.github.io/Global-Depression-Prevalence-Data-Analysis-SQL-R-/analysis_report.html)
+
 ## 📌 Project Goals
 
 - Write SQL queries for exploratory analysis (Filtering, Joins, Aggregate Functions, Window Functions, CTEs)
